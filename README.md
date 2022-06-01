@@ -6,6 +6,10 @@ Este projeto tem a finalidade de demonstrar brevemente a utilização do framewo
 
 Com a intenção de simular o banco de dados e retorno de requisições do back-end, foi utilizado o db server json.
 
+# Requisitos
+
+  - Node js instalado.
+
 # Passos para teste local
 
 1 - Realize o donwload ou fork do repositório, acesse a pasta do projeto e execute o comando: npm install para instalar os pacotes necessários.
