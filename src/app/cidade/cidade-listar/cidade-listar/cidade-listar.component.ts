@@ -35,7 +35,7 @@ export class CidadeListarComponent implements OnInit {
     this.listarCidades();
     this.chart = document.getElementById('myChart');
     Chart.register(...registerables);
-    //this.listChart(this.cidadeExemplo);
+    this.listChart(this.cidadeExemplo);
   }
 
   listarCidades() {
