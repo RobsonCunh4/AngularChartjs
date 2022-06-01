@@ -35,7 +35,7 @@ export class CidadeListarComponent implements OnInit {
     this.listarCidades();
     this.chart = document.getElementById('myChart');
     Chart.register(...registerables);
-    this.listChart(this.cidadeExemplo);
+    //this.listChart(this.cidadeExemplo);
   }
 
   listarCidades() {
@@ -69,7 +69,7 @@ export class CidadeListarComponent implements OnInit {
           },
           {
             data: [cidade.V6],
-            label: 'IDHM - EDUCAÇÃO',            
+            label: 'IDHM - EDUCAÃÃO',            
             backgroundColor: [
               'rgba(255, 205, 86, 0.2)'             
             ],
@@ -88,7 +88,7 @@ export class CidadeListarComponent implements OnInit {
             ],
           },
         ],
-        labels: ['Índice de Desenvolvimento Humano'],
+        labels: ['Ãndice de Desenvolvimento Humano'],
       },
       options: {     
         responsive: true,
