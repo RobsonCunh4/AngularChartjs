@@ -8,7 +8,7 @@ import { Cidade } from './cidade.model';
 })
 export class CidadeService {
 
-  private baseUrl = "http://localhost:3000/";
+  private baseUrl = "http://localhost:3000";
   private endPoint = 'cidades';
 
   constructor(private httpClient: HttpClient) { }
