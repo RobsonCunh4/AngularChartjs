@@ -1,0 +1,37 @@
+<mat-toolbar>Lista Cidades</mat-toolbar>
+
+<ng-template #loading>
+  <mat-spinner></mat-spinner>
+</ng-template>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-1 col-sm-2 col-md-2">
+      <div class="container-table-list">
+        <div *ngIf="cidades | async as cidades; else loading">
+          <table
+            mat-table
+            [dataSource]="cidades"
+            class="mat-elevation-z8 demo-table"
+          >
+            <ng-container matColumnDef="MUN">
+              <th mat-header-cell *matHeaderCellDef><b>Cidades</b></th>
+              <th mat-cell *matCellDef="let cidade" class="table-item">
+                {{ cidade.MUN }}
+              </th>
+            </ng-container>
+            <tr mat-header-row *matHeaderRowDef="colunasTabela"></tr>
+            <tr
+              mat-row
+              *matRowDef="let row; columns: colunasTabela"
+              (click)="updateChart(row)"
+            ></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="offset-1 col-xs-10 col-sm-10 col-md-8">
+        <canvas id="myChart" class="x"></canvas>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,18 @@
+.container-table-list {  
+  height: 800px;
+  max-width: 210px !important;
+  overflow-y: auto;
+}
+
+.list-item{
+  text-decoration: none;
+}
+
+.mat-row:hover {
+background-color: #80c3e2;
+cursor: pointer;
+}
+
+.table-item{
+  padding-left: 10px;
+}
