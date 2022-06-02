@@ -26,6 +26,8 @@ O json-server irá executar no endereço: http://localhost:3000/cidades
 
 (https://github.com/StrongRC/AngularChartjs/blob/main/img/img.PNG)
 
+<img src="https://github.com/StrongRC/AngularChartjs/blob/main/img/img.PNG" width="350" title="hover text">
+
 # Referências
 
 <a href="https://angular.io/">Angular<a/>   
