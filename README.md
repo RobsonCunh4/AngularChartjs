@@ -12,9 +12,9 @@ Com a intenção de simular o banco de dados e retorno de requisições do back-
 
 # Passos para teste local
 
-1 - Realize o donwload ou fork do repositório, acesse a pasta do projeto e execute o comando: npm install para instalar os pacotes necessários.
+1 - Realize o donwload ou fork do repositório, acesse a pasta do projeto através de um terminal e execute o comando: npm install para instalar os pacotes necessários.
 
-2 - Acesse a pasta src/db e execute o comando: json-server --watch db.json.
+2 - Abra outro terminal e acesse a pasta src/db e execute o comando: json-server --watch db.json.
 
 A aplicação irá executar no endereço: http://localhost:4200
 
