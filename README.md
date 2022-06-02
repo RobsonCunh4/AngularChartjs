@@ -17,6 +17,7 @@ Com a intenção de simular o banco de dados e retorno de requisições do back-
 2 - Acesse a pasta src/db e execute o comando: json-server --watch db.json.
 
 A aplicação irá executar no endereço: http://localhost:4200
+
 O json-server irá executar no endereço: http://localhost:3000/cidades
 
 
