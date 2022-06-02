@@ -17,7 +17,7 @@ export class CidadeListarComponent implements OnInit {
   mychart: any;
 
   cidadeExemplo: Cidade = {
-      MUN: "Abaíra",
+      MUN: "AbaÃ­ra",
       V1: 8316,
       V2: 94.22,
       V3: 0.603,
@@ -69,7 +69,7 @@ export class CidadeListarComponent implements OnInit {
           },
           {
             data: [cidade.V6],
-            label: 'IDHM - EDUCAÃÃO',            
+            label: 'IDHM - EDUCAÇÃO',            
             backgroundColor: [
               'rgba(255, 205, 86, 0.2)'             
             ],
@@ -88,7 +88,7 @@ export class CidadeListarComponent implements OnInit {
             ],
           },
         ],
-        labels: ['Ãndice de Desenvolvimento Humano'],
+        labels: ['Índice de Desenvolvimento Humano'],
       },
       options: {     
         responsive: true,
